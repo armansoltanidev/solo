@@ -1,8 +1,12 @@
 import React from 'react';
+import Hero from '../Components/Hero';
+import DemoSection from './DemoSection';
+
 function Home() {
   return (
     <>
-      <div>Home</div>
+      <Hero />
+      <DemoSection />
     </>
   );
 }
